@@ -1,0 +1,6 @@
+framework module Pods_SocialPoster {
+  umbrella header "Pods-SocialPoster-umbrella.h"
+
+  export *
+  module * { export * }
+}
