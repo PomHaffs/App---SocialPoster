@@ -14,6 +14,11 @@
 		FE6275E01DEBA6EF00AF6AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6275DF1DEBA6EF00AF6AEB /* Assets.xcassets */; };
 		FE6275E31DEBA6EF00AF6AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6275E11DEBA6EF00AF6AEB /* LaunchScreen.storyboard */; };
 		FE6275EB1DEBA87700AF6AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE6275EA1DEBA87700AF6AEB /* GoogleService-Info.plist */; };
+		FE6275F01DEBC0AE00AF6AEB /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275EF1DEBC0AE00AF6AEB /* Shadow.swift */; };
+		FE6275F31DEBC16000AF6AEB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275F21DEBC16000AF6AEB /* Constants.swift */; };
+		FE6275F51DEBC55C00AF6AEB /* RoundEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275F41DEBC55C00AF6AEB /* RoundEdges.swift */; };
+		FE6275F71DEBC71900AF6AEB /* FieldChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275F61DEBC71900AF6AEB /* FieldChange.swift */; };
+		FE6275F91DEBC86300AF6AEB /* CurvedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275F81DEBC86300AF6AEB /* CurvedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		FE6275E21DEBA6EF00AF6AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE6275E41DEBA6EF00AF6AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE6275EA1DEBA87700AF6AEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE6275EF1DEBC0AE00AF6AEB /* Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		FE6275F21DEBC16000AF6AEB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE6275F41DEBC55C00AF6AEB /* RoundEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundEdges.swift; sourceTree = "<group>"; };
+		FE6275F61DEBC71900AF6AEB /* FieldChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldChange.swift; sourceTree = "<group>"; };
+		FE6275F81DEBC86300AF6AEB /* CurvedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 				FE6275EC1DEBAB5000AF6AEB /* Model */,
 				FE6275ED1DEBAB5600AF6AEB /* View */,
 				FE6275EE1DEBAB5C00AF6AEB /* Controller */,
+				FE6275F11DEBC13A00AF6AEB /* Utilities */,
 				FE6275D81DEBA6EF00AF6AEB /* AppDelegate.swift */,
 				FE6275DC1DEBA6EF00AF6AEB /* Main.storyboard */,
 				FE6275DF1DEBA6EF00AF6AEB /* Assets.xcassets */,
@@ -103,6 +114,10 @@
 		FE6275ED1DEBAB5600AF6AEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE6275EF1DEBC0AE00AF6AEB /* Shadow.swift */,
+				FE6275F41DEBC55C00AF6AEB /* RoundEdges.swift */,
+				FE6275F61DEBC71900AF6AEB /* FieldChange.swift */,
+				FE6275F81DEBC86300AF6AEB /* CurvedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 				FE6275DA1DEBA6EF00AF6AEB /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		FE6275F11DEBC13A00AF6AEB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FE6275F21DEBC16000AF6AEB /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +265,11 @@
 			files = (
 				FE6275DB1DEBA6EF00AF6AEB /* SignInVC.swift in Sources */,
 				FE6275D91DEBA6EF00AF6AEB /* AppDelegate.swift in Sources */,
+				FE6275F71DEBC71900AF6AEB /* FieldChange.swift in Sources */,
+				FE6275F01DEBC0AE00AF6AEB /* Shadow.swift in Sources */,
+				FE6275F91DEBC86300AF6AEB /* CurvedButton.swift in Sources */,
+				FE6275F31DEBC16000AF6AEB /* Constants.swift in Sources */,
+				FE6275F51DEBC55C00AF6AEB /* RoundEdges.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
