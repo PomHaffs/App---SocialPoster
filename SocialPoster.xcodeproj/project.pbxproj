@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		175ED5E0656B170FDD201987 /* Pods_SocialPoster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3AEFA27CDDDE6EAA630D7E /* Pods_SocialPoster.framework */; };
 		FE6275D91DEBA6EF00AF6AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275D81DEBA6EF00AF6AEB /* AppDelegate.swift */; };
-		FE6275DB1DEBA6EF00AF6AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275DA1DEBA6EF00AF6AEB /* ViewController.swift */; };
+		FE6275DB1DEBA6EF00AF6AEB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6275DA1DEBA6EF00AF6AEB /* SignInVC.swift */; };
 		FE6275DE1DEBA6EF00AF6AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6275DC1DEBA6EF00AF6AEB /* Main.storyboard */; };
 		FE6275E01DEBA6EF00AF6AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6275DF1DEBA6EF00AF6AEB /* Assets.xcassets */; };
 		FE6275E31DEBA6EF00AF6AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6275E11DEBA6EF00AF6AEB /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		C1EF2360A19B307450A2DCA4 /* Pods-SocialPoster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialPoster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialPoster/Pods-SocialPoster.debug.xcconfig"; sourceTree = "<group>"; };
 		FE6275D51DEBA6EF00AF6AEB /* SocialPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6275D81DEBA6EF00AF6AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE6275DA1DEBA6EF00AF6AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE6275DA1DEBA6EF00AF6AEB /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		FE6275DD1DEBA6EF00AF6AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE6275DF1DEBA6EF00AF6AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE6275E21DEBA6EF00AF6AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,8 +80,10 @@
 		FE6275D71DEBA6EF00AF6AEB /* SocialPoster */ = {
 			isa = PBXGroup;
 			children = (
+				FE6275EC1DEBAB5000AF6AEB /* Model */,
+				FE6275ED1DEBAB5600AF6AEB /* View */,
+				FE6275EE1DEBAB5C00AF6AEB /* Controller */,
 				FE6275D81DEBA6EF00AF6AEB /* AppDelegate.swift */,
-				FE6275DA1DEBA6EF00AF6AEB /* ViewController.swift */,
 				FE6275DC1DEBA6EF00AF6AEB /* Main.storyboard */,
 				FE6275DF1DEBA6EF00AF6AEB /* Assets.xcassets */,
 				FE6275E11DEBA6EF00AF6AEB /* LaunchScreen.storyboard */,
@@ -89,6 +91,28 @@
 				FE6275EA1DEBA87700AF6AEB /* GoogleService-Info.plist */,
 			);
 			path = SocialPoster;
+			sourceTree = "<group>";
+		};
+		FE6275EC1DEBAB5000AF6AEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FE6275ED1DEBAB5600AF6AEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FE6275EE1DEBAB5C00AF6AEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE6275DA1DEBA6EF00AF6AEB /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6275DB1DEBA6EF00AF6AEB /* ViewController.swift in Sources */,
+				FE6275DB1DEBA6EF00AF6AEB /* SignInVC.swift in Sources */,
 				FE6275D91DEBA6EF00AF6AEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +407,7 @@
 				FE6275E91DEBA6EF00AF6AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
